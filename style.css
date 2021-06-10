@@ -9,7 +9,7 @@
 body {
   font-family: "Noto Sans JP", sans-serif;
   margin: 0;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .div-portfolio {
@@ -153,7 +153,7 @@ body {
 }
 
 :is(.section-technologies, .section-achievements) span {
-  color: var(--dark-gray);
+  color: var(--dark-gray) !important;
 }
 
 .section-contact-me p img {
