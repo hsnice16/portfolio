@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
+
+:root {
+  --primary-color: #ef4444;
+  --dark-gray: #6b7280;
+  --off-white: #f3f4f6;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.div-portfolio {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* container */
+
+.container {
+  padding: 0rem 1rem;
+}
+
+.container-center {
+  text-align: justify;
+  max-width: 650px;
+  margin: auto;
+}
+
+/*  */
+
+/* link */
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+}
+
+/*  */
+
+/* list */
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/*  */
+
+/* header */
+
+.hero-img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.hero-heading {
+  text-align: center;
+  padding-top: 1rem;
+  color: var(--dark-gray);
+}
+
+.hero-heading .span {
+  color: var(--primary-color);
+}
+
+/*  */
+
+/* navbar */
+
+.nav-bar {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 0.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.nav-bar .nav-brand {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.nav-bar .nav-pills {
+  text-align: right;
+}
+
+.nav-pills .link {
+  color: white;
+}
+
+.nav-bar .link-active {
+  font-weight: bold;
+}
+
+/*  */
+
+/* section */
+
+.section {
+  padding: 1rem;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
+
+.section-ow {
+  padding: 2rem;
+}
+
+.section h2 {
+  color: var(--dark-gray);
+  font-weight: normal;
+  font-size: 2.1rem;
+}
+
+.section p {
+  font-size: 1.1rem;
+}
+
+.section p span {
+  display: inline-block;
+}
+
+.section-about-me p .span-name {
+  color: var(--primary-color);
+}
+
+.section-about-me p .namaste-span {
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+
+:is(.section-technologies, .section-achievements) span {
+  color: var(--dark-gray);
+}
+
+.section-contact-me p img {
+  vertical-align: bottom;
+}
+
+/*  */
+
+/* footer */
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1.5rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+/*  */
+
+/* project */
+
+.div-project {
+  padding: 1rem 0.5rem;
+}
+
+.div-project em {
+  color: var(--dark-gray);
+}
+
+.div-more-on {
+  text-align: center;
+  margin: 1rem;
+}
+
+/*  */
+
+/* blog */
+
+.blog-img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.article-blog {
+  padding: 2rem;
+}
+
+.article-blog span {
+  color: var(--dark-gray);
+}
+
+.article-blog h4 {
+  display: inline-block;
+}
+
+.article-blog blockquote {
+  border-left: 3px solid var(--dark-gray);
+  padding-left: 1rem;
+  margin-inline-start: 0;
+}
+
+/*  */
